@@ -1,0 +1,62 @@
+body {
+	font-family: arial;
+	font-size: 14px;
+	background-color: #F5F5DC;
+}
+.clear {
+	clear: both
+}
+header {
+	background : #F2F5F4;
+	padding : 10px;
+}
+header .logo{
+	width: 125px;
+	margin: 5px auto;
+}
+table.ortala{
+	margin-left: auto;
+	margin-right: auto;
+}
+header nav tr {
+	width: 200px;
+	margin: 0 auto;
+}
+header nav tr th {
+	float: left;
+	padding: 25px;
+}
+header nav tr th a {
+	color: red;
+}
+header nav tr th a:hover{
+	color: grey;
+}
+.slider {
+	height: 370px;
+	background: url('../png/746394.jpg') no-repeat center 45%;
+	background-size: cover;
+	position: relative;
+}
+.slider p.text {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	font-family: Blackadder ITC;
+	color: white;
+}
+p.bilgi{
+	text-align: center;
+	color: grey;
+	font-size: 25px;
+}
+.telif p{
+	text-align: center;
+}
+
+	
+	
